@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 05 e 06</title>
+</head>
+<style>img    {
+    border-radius: 50%;
+}</style>
+<body>
+    <h1>Minhas redes Sociais</h1>
+    <h2>Quem sou eu ?</h2>
+    <img src="https://infoesporte.com.br/wp-content/uploads/2020/07/adulto-ney-vitoria-psg-e-expectativa-champions.jpeg" alt="menino ney" width="150" height="150" >
+    <p>Meu nome é <b>Gustavo Guanabara</b>, sou professor de Tecnologia desde <br> 1994 e hoje produzo conteúdos para quem está inciando no ramo <br> da programação e desenvolvimento de sites/aplicações. São muitos anos <br> dentro de aula, tentando mostrar de forma simples e objetiva alguns <br> conceitos que muita gente iniciante acha muito difícil. </p>
+    <h2>Como falar comigo?</h2>
+    <ul type= "disc">
+        <li> <img  src="https://yt3.ggpht.com/ytc/AKedOLRIYqffphLkoTlUA-hlcySXppGOpDgcAFjLaiB2gg=s88-c-k-c0x00ffffff-no-rj" width="15" height="15"> <a href="https://www.youtube.com/user/cursosemvideo" target="_blank">/cursosemvideo-</a> Se inscreve lá no meu canal no Youtube</li>
+        <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.png" width="15" height="15"><a href="https://github.com/guiilhermeslz/html/new/main" target="_blank">/guiilhermeslz</a>-Acesse meu Github</li>
+        <li><img src="https://t.ctcdn.com.br/Wl2ilBJi0ZFEzeNgF8dC57PS_g8=/400x400/smart/i489927.jpeg" width="15" height="15"><a href="https://www.instagram.com/pedroguilherme.fla/" target="_blank">/pedroguilherme</a>-Me siga no meu instagram</li>
+        <li></li>
+
+    </ul>
+</body>
+</html>
+
