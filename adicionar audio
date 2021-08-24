@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musica</title>
+</head>
+<body>
+    <h1>Adicionando audio em codigo html</h1>
+    <p>Aqui vou usar as funções: controls autoplay e audio</p>
+    <audio src="AQUELAS COISAS - João Gomes e Tarcísio do Acordeon (DVD Ao Vivo em Fortaleza)_50k.mp3"controls autoplay></audio>]
+    <p>aqui agora vou colcar usando a tag source src</p>
+    <audio preload="metadata" controls >
+        <source src="AQUELAS COISAS - João Gomes e Tarcísio do Acordeon (DVD Ao Vivo em Fortaleza)_50k.mp3" type="audio/mp3">
+    </audio>
+    <p>Caso vc n consiga escutar baixe este arquivo <a href="AQUELAS COISAS - João Gomes e Tarcísio do Acordeon (DVD Ao Vivo em Fortaleza)_50k.mp3">Clicando aqui</a></p>
+</body>
+</html>
