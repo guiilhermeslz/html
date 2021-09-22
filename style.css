@@ -1,0 +1,26 @@
+.body{
+ background-color: black;   
+}
+.img{
+    width: 200px;
+    height: 115px;
+    margin: 0;
+    
+}
+h1{
+    text-align:center;
+    color: white;
+}
+p{
+    color: white;
+    text-align: center;
+}
+.container4 {
+    height: 10em;
+    position: relative; 
+    align-items: center;
+    justify-content: center;
+}
+a{
+    margin: 0;
+}
