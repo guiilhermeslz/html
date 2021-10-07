@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container"><!--start container-->
+        <div class="content first-content"><!--start frist-content-->
+
+            <div class="frist column"><!--Start frist column-->
+            <h1>Welcome back!</h1>
+            <p class="description">To keep conected with us</p>
+            <p class="description">please login whit your personal info</p>
+            <button class="bnt">Login in</button>
+            </div><!--end  frist column-->
+
+            <div class="second column"><!--start second column-->
+            <h1>Creat account</h1>
+            <ul class="social-media">
+                <li><a href="#">facebook</a></li>
+                <li><a href="#">google</a></li>
+                <li><a href="#">linkedin</a></li>
+            </ul>
+            <p class="description">or use your email for registration:</p>
+            <form>
+            <input type="Name" name="name" placeholder="name">
+            <input type="email" name="email" placeholder="e-mail">
+            <input type="password" name="password" placeholder="password">
+            <button class="bnt">Sing up</button>
+
+            </form>
+            
+            </div><!--end second column-->
+
+        </div><!--end frist-content-->
+
+         <div class="content second-content"><!--start second-content-->
+
+            <div class="frist column"><!--Start frist column-->
+            <h1>Helllo, friend!</h1>
+            <p class="description">Enter your personal deitals</p>
+            <p class="description">and start journey whit us</p>
+            <button class="bnt">Sing up</button>
+            </div><!--end  frist column-->
+
+            <div class="second column"><!--start second column-->
+            <h1>Sing in to developer</h1>
+            <ul class="social-media">
+                <li><a href="#">facebook</a></li>
+                <li><a href="#">google</a></li>
+                <li><a href="#">linkedin</a></li>
+            </ul>
+            <p class="description">or use your email account:</p>
+            <form>
+            <input type="Name" name="name" placeholder="name">
+            <input type="email" name="email" placeholder="e-mail">
+            <input type="password" name="password" placeholder="password">
+            <a href="#">forgot yout password?</a>
+            <button class="bnt">Sing in</button>
+
+            </form>
+            
+            </div><!--end second column-->
+        </div><!--end second-content-->
+    </div><!--end conteiner-->
+</body>
+</html>
+<!--css logo abaixo-->
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    align-items: center;
+    border: 2px solid;
+}
+.second-content{
+    position: absolute;
+    display: none;
+}
+.first-content{
+    display: flex;
+}
+.social-media{
+    display: flex;
+}
+.form{
+    display: flex;
+    
+}
